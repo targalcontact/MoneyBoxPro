@@ -16,7 +16,7 @@
     "banner_enabled": true,
     "native_enabled": true,
     "interstitial_enabled": true,
-    "rewarded_enabled": false,
+    "rewarded_enabled": true,
     "app_open_enabled": true,
 
     "banner_provider": "admob",
@@ -31,16 +31,16 @@
     "native_frequency": 3,
 
     "admob_ids": {
-      "banner": "ca-app-pub-XXXXXXXXXXXXXXXX/0000000001",
-      "native": "ca-app-pub-XXXXXXXXXXXXXXXX/0000000002",
-      "interstitial": "ca-app-pub-XXXXXXXXXXXXXXXX/0000000003",
-      "rewarded": "ca-app-pub-XXXXXXXXXXXXXXXX/0000000004",
-      "app_open": "ca-app-pub-XXXXXXXXXXXXXXXX/0000000005"
+      "banner": "ca-app-pub-3940256099942544/9214589741",
+      "native": "ca-app-pub-3940256099942544/2247696110",
+      "interstitial": "ca-app-pub-3940256099942544/1033173712",
+      "rewarded": "ca-app-pub-3940256099942544/5224354917",
+      "app_open": "ca-app-pub-3940256099942544/9257395921"
     },
     "facebook_ids": {
-      "banner": "XXXXXXXXXXXXXXX_YYYYYYYYYYYYYYY",
-      "native": "XXXXXXXXXXXXXXX_YYYYYYYYYYYYYYY",
-      "interstitial": "XXXXXXXXXXXXXXX_YYYYYYYYYYYYYYY"
+      "banner": "IMG_16_9_LINK",
+      "native": "IMG_16_9_LINK",
+      "interstitial": "VID_HD_16_9_15S_APP_INSTALL"
     }
   },
 
@@ -87,7 +87,7 @@
   },
 
   "cache": {
-    "cache_duration_minutes": 60,
+    "cache_duration_minutes": 1,
     "retry_attempts": 3,
     "retry_backoff_seconds": 5
   }
