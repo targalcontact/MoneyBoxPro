@@ -19,10 +19,10 @@
     "rewarded_enabled": true,
     "app_open_enabled": true,
 
-    "banner_provider": "admob",
+    "banner_provider": "facebook",
     "native_provider": "facebook",
-    "interstitial_provider": "admob",
-    "rewarded_provider": "admob",
+    "interstitial_provider": "facebook",
+    "rewarded_provider": "facebook",
     "appopen_provider": "admob",
 
     "banner_frequency": 1,
