@@ -1,0 +1,94 @@
+{
+  "app_meta": {
+    "latest_version": "1.0.0",
+    "latest_version_code": 1,
+    "force_update": false,
+    "min_supported_version_code": 1,
+    "maintenance_mode": false,
+    "maintenance_message": "MoneyBox Pro is undergoing scheduled maintenance. Please try again shortly."
+  },
+
+  "ads": {
+    "ads_enabled": true,
+    "admob_enabled": true,
+    "facebook_enabled": true,
+
+    "banner_enabled": true,
+    "native_enabled": true,
+    "interstitial_enabled": true,
+    "rewarded_enabled": false,
+    "app_open_enabled": true,
+
+    "banner_provider": "admob",
+    "native_provider": "facebook",
+    "interstitial_provider": "admob",
+    "rewarded_provider": "admob",
+    "appopen_provider": "admob",
+
+    "banner_frequency": 1,
+    "interstitial_frequency": 4,
+    "rewarded_frequency": 1,
+    "native_frequency": 3,
+
+    "admob_ids": {
+      "banner": "ca-app-pub-XXXXXXXXXXXXXXXX/0000000001",
+      "native": "ca-app-pub-XXXXXXXXXXXXXXXX/0000000002",
+      "interstitial": "ca-app-pub-XXXXXXXXXXXXXXXX/0000000003",
+      "rewarded": "ca-app-pub-XXXXXXXXXXXXXXXX/0000000004",
+      "app_open": "ca-app-pub-XXXXXXXXXXXXXXXX/0000000005"
+    },
+    "facebook_ids": {
+      "banner": "XXXXXXXXXXXXXXX_YYYYYYYYYYYYYYY",
+      "native": "XXXXXXXXXXXXXXX_YYYYYYYYYYYYYYY",
+      "interstitial": "XXXXXXXXXXXXXXX_YYYYYYYYYYYYYYY"
+    }
+  },
+
+  "feature_flags": {
+    "csv_export_enabled": true,
+    "csv_import_enabled": true,
+    "backup_restore_enabled": true,
+    "widgets_enabled": true,
+    "statistics_enabled": true,
+    "multi_currency_enabled": true
+  },
+
+  "review": {
+    "review_dialog_enabled": true,
+    "min_sessions_before_prompt": 5,
+    "min_days_before_prompt": 3
+  },
+
+  "links": {
+    "privacy_policy_url": "https://rokiacharia.com/moneybox-privacy",
+    "terms_url": "https://rokiacharia.com/moneybox-terms",
+    "support_email": "support@example.com",
+    "telegram_url": "https://t.me/example",
+    "whatsapp_url": "https://wa.me/2126xxxxxxxx"
+  },
+
+  "theme": {
+    "primary_color": "#6C5CE7",
+    "secondary_color": "#00CEC9",
+    "accent_color": "#FD79A8"
+  },
+
+  "announcement": {
+    "enabled": false,
+    "title": "",
+    "message": "",
+    "action_url": ""
+  },
+
+  "welcome_message": {
+    "enabled": true,
+    "title": "Welcome to MoneyBox Pro",
+    "subtitle": "Save smarter, reach your goals faster."
+  },
+
+  "cache": {
+    "cache_duration_minutes": 60,
+    "retry_attempts": 3,
+    "retry_backoff_seconds": 5
+  }
+}
