@@ -15,7 +15,7 @@
 
   "interstitial_after_actions": 1,
 
-  "priority": "admob",
+  "priority": "facebook",
   "fallback_enabled": true,
 
   "cache_hours": 0,
