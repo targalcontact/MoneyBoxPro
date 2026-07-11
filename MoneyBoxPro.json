@@ -1,22 +1,22 @@
 {
   "ads_enabled": true,
 
-  "provider": "admob",
+  "provider": "facebook",
 
   "interstitial_enabled": true,
   "native_enabled": true,
   "rewarded_enabled": false,
 
-  "interstitial_provider": "admob",
-  "native_provider": "admob",
-  "rewarded_provider": "admob",
+  "interstitial_provider": "facebook",
+  "native_provider": "facebook",
+  "rewarded_provider": "facebook",
 
   "interstitial_after_actions": 4,
 
-  "priority": "admob",
+  "priority": "facebook",
   "fallback_enabled": true,
 
-  "cache_hours": 6,
+  "cache_hours": 0,
 
   "test_mode": true
 }
